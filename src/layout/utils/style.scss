@@ -1,0 +1,28 @@
+.modal-confirm-session-logout {
+  .body {
+    text-align: center;
+
+    .anticon-exclamation {
+      font-size: 80px;
+      color: #F6851F;
+      border: 2px solid #F6851F;
+      border-radius: 50%;
+    }
+
+    .content {
+      margin: 20px;
+      color: #747597;
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    .box-action {
+      display: flex;
+      justify-content: center;
+
+      button {
+        min-width: 120px;
+      }
+    }
+  }
+}

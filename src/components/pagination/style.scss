@@ -1,0 +1,31 @@
+.pagination-define {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 40px;
+
+
+    .ant-pagination-item {
+        border-radius: 5px;
+        border-color: #007BFF;
+        color: #007BFF;
+    }
+
+    .ant-select-selector {
+        display: none !important;
+    }
+
+    .ant-pagination-options {
+        display: none !important;
+    }
+
+    .ant-pagination-item-active {
+        color: #FFFFFF;
+        background-color: #007BFF;
+
+        &:focus a{
+            color: #FFFFFF;
+        }
+    }
+}

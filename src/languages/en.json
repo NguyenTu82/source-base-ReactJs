@@ -1,0 +1,14 @@
+{
+  "validation" : {
+
+  },
+  "success" : {
+
+  },
+  "error" : {
+
+  },
+  "welcome": "Welcome",
+  "overview": "Overview",
+  "logout": "Logout"
+}

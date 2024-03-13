@@ -1,0 +1,23 @@
+.component-CodeInput {
+    display: flex;
+    justify-content: space-between;
+}
+
+.component-CodeInput {
+    .input {
+        width: 40px;
+        height: 40px;
+        line-height: 30px;
+        font-size: 30px;
+        font-weight: bold;
+        border: 1px solid gray;
+        border-radius: 3px;
+        padding: 0;
+        text-align: center;
+        outline: none;
+        -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+        -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    }
+}
+

@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #747597;
+  font-size: 15px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+.application {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+
+  &.open #sidebar_main {
+    width: 255px;
+    border-right: 1px solid #E5E9EB;
+  }
+
+  &.open #header {
+    width: calc(100% - 256px);
+    margin-left: 256px;
+  }
+
+  &.open #wrapper {
+    width: calc(100% - 256px);
+    margin-left: 256px;
+  }
+
+  @media only screen and (max-width: 320px) {
+    &.open #sidebar_main {
+      width: 221px;
+      border-right: 1px solid #E5E9EB;
+    }
+
+    &.open #header {
+      width: calc(100% - 222px);
+      margin-left: 222px;
+    }
+
+    &.open #wrapper {
+      width: calc(100% - 222px);
+      margin-left: 222px;
+    }
+  }
+
+  @media only screen and (max-width: 376px) {
+    &.open #wrapper {
+      min-width: 100vw;
+    }
+  }
+}
+
+@keyframes rotation {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(359deg); }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(46,49,146,.22);
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(46,49,146,.22);
+}

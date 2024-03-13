@@ -1,0 +1,14 @@
+{
+  "validation" : {
+
+  },
+  "success" : {
+
+  },
+  "error" : {
+
+  },
+  "welcome": "Xin Chào",
+  "overview": "Tổng quát",
+  "logout": "Đăng xuất"
+}
